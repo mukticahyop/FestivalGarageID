@@ -25,43 +25,43 @@ export default function Catalog({ waNumber }: CatalogProps) {
   const cars: Car[] = [
     {
       id: 1,
+      name: "Toyota GR86",
+      year: "2022 · STREET RIVAL",
+      tag: "TUNER",
+      status: "READY",
+      price: "Rp 10.000",
+      img: "/assets/1-toyota-gr86.png",
+      desc: "Toyota GR86 (2022)"
+    },
+    {
+      id: 2,
+      name: "Toyota Camry TRD",
+      year: "2023 · TRD SPORTED",
+      tag: "RARE",
+      status: "READY",
+      price: "Rp 10.000",
+      img: "/assets/2-toyota-camry-trd.png",
+      desc: "Toyota Camry TRD (2023)"
+    },
+    {
+      id: 3,
+      name: "Nissan Z Nismo",
+      year: "2024 · NISMO S-TUNE",
+      tag: "UNICORN",
+      status: "LIMITED",
+      price: "Rp 15.000",
+      img: "/assets/3-nissan-z-nismo.png",
+      desc: "Nissan Z Nismo (2024)"
+    },
+    {
+      id: 4,
       name: "Porsche 911 GT3 RS",
       year: "2024 · FESTIVAL EXCLUSIVE",
       tag: "SEASONAL",
       status: "LIMITED",
       price: "Rp 15.000",
-      img: "/assets/1-porsche-gt3rs.png",
+      img: "/assets/4-porsche-gt3rs.png",
       desc: "Porsche 911 GT3 RS (2024)"
-    },
-    {
-      id: 2,
-      name: "Nissan Skyline GT-R R34 Nismo",
-      year: "2002 · NISMO S-TUNE",
-      tag: "UNICORN",
-      status: "LIMITED",
-      price: "Rp 15.000",
-      img: "/assets/2-nissan-z-nismo.png",
-      desc: "Nissan Skyline GT-R R34 Nismo"
-    },
-    {
-      id: 3,
-      name: "Toyota GR Supra",
-      year: "2023 · DRIFT KING EDITION",
-      tag: "TUNER",
-      status: "READY",
-      price: "Rp 10.000",
-      img: "/assets/3-toyota-camry-trd.png",
-      desc: "Toyota GR Supra (2023)"
-    },
-    {
-      id: 4,
-      name: "Honda NSX Type S",
-      year: "2022 · HYBRID SUPERCAR",
-      tag: "RARE",
-      status: "READY",
-      price: "Rp 10.000",
-      img: "/assets/4-toyota-gr86.png",
-      desc: "Honda NSX Type S (2022)"
     }
   ];
 
